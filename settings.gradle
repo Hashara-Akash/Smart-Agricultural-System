@@ -1,0 +1,2 @@
+rootProject.name = "Smart Agricultural System"
+include ':app'

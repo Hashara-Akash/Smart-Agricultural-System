@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "779232817257",
+    "firebase_url": "https://smart-agricultural-syste-2053e-default-rtdb.firebaseio.com",
+    "project_id": "smart-agricultural-syste-2053e",
+    "storage_bucket": "smart-agricultural-syste-2053e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779232817257:android:5292df30e9ed08289ff2f8",
+        "android_client_info": {
+          "package_name": "com.example.smartagriculturalsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779232817257-k9s93phd3knh90bjusve4a9keb74hog0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS-3M2rcr4hIG1wEE2mt-JsJH-qjfo8Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779232817257-k9s93phd3knh90bjusve4a9keb74hog0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

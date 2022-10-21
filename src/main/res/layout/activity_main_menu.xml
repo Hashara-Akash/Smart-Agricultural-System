@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="10dp"
+    android:orientation="horizontal"
+    android:background="#fff"
+    tools:context=".MainMenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textV12"
+            android:layout_width="match_parent"
+            android:text="Water Pump Controllers"
+            android:fontFamily="@font/new_rocker"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/webview1"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/onBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textV12"
+            android:text="WATER PUMP ON"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="@font/allerta"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+
+        <Button
+            android:id="@+id/offBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/onBtn"
+            android:text="WATER PUMP OFF"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="@font/allerta"
+            android:textSize="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"/>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
